@@ -6,7 +6,8 @@ namespace Exercises
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            LinqExercise linqExercise = new LinqExercise();
+            linqExercise.dayOfWeek();
         }
     }
 }
